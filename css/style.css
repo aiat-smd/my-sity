@@ -1,0 +1,47 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  background-color: #E8FFFF;
+  margin: 0;
+  padding: 0;
+}
+.top-container {
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
+.top-cloud {
+  width: 300px;
+  height: 100px;
+  position: absolute;
+  top: -50px;
+  left: 200px;
+}
+.bottom-cloud {
+   width: 300px;
+   height: 100px;
+   position: absolute;
+   right: 200px;
+   bottom: 400px;
+ }
+.title {
+  font-family: 'Sacramento', cursive;
+  font-size: 90px;
+  margin: 120px auto 0px;
+  padding-top: 40px;
+  color: #41AEA9;
+}
+
+.subtitle {
+  font-size: 30px;
+  margin: 0px auto 25px;
+  color: #41AEA9;
+
+}
+.subtitle span {
+  text-decoration: underline;
+}
+.city-img {
+  width: 100%;
+  height: 400px;
+}
